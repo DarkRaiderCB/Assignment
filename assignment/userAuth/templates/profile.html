@@ -1,0 +1,6 @@
+<p>Username: {{ user.username }}</p>
+<p>Email: {{ user.email }}</p>
+<p>Date Joined: {{ user.date_joined }}</p>
+<p>Last Updated/Accessed: {{ profile.last_updated }}</p>
+<a href="{% url 'dashboard' %}">Dashboard</a>
+<a href="{% url 'logout' %}">Logout</a>
